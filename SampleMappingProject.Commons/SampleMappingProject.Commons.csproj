@@ -8,7 +8,11 @@
 
   <ItemGroup>
     <PackageReference Include="xunit" Version="2.9.3" />
-  <ProjectReference Include="..\SampleMappingProject.Infrastructure\SampleMappingProject.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SampleMappingProject.Infrastructure\SampleMappingProject.Persistence.csproj" />
+    <ProjectReference Include="..\SampleMappingProject.Persistence\SampleMappingProject.Persistence.csproj" />
   </ItemGroup>
 
 </Project>

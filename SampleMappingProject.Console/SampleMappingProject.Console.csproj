@@ -2,6 +2,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\SampleMappingProject.Commons\SampleMappingProject.Commons.csproj" />
+    <ProjectReference Include="..\SampleMappingProject.Persistence\SampleMappingProject.Persistence.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

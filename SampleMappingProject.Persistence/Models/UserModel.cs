@@ -1,4 +1,4 @@
-namespace SampleMappingProject.Infrastructure.Models.Persistence
+namespace SampleMappingProject.Persistence.Models
 {
     public class UserModel
     {

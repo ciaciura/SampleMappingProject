@@ -23,6 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\SampleMappingProject.Persistence\SampleMappingProject.Persistence.csproj" />
     <ProjectReference Include="..\SampleMappingProject\SampleMappingProject.csproj" />
     <ProjectReference Include="..\SampleMappingProject.Console\SampleMappingProject.Console.csproj" />
     <ProjectReference Include="..\SampleMappingProject.Commons\SampleMappingProject.Commons.csproj" />

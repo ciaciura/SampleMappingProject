@@ -1,7 +1,7 @@
 using System;
 using System.Linq.Expressions;
 using SampleMappingProject.Views;
-using SampleMappingProject.Infrastructure.Models.Persistence;
+using SampleMappingProject.Persistence.Models;
 
 namespace SampleMappingProject.Commons.Models.Views
 {

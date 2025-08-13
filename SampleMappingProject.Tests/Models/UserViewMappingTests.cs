@@ -1,14 +1,13 @@
-using ConsoleUserView = SampleMappingProject.Commons.Models.Views.UserView;
-using ConsoleUserModel = SampleMappingProject.Infrastructure.Models.Persistence.UserModel;
-using CommonsTestBase = SampleMappingProject.Views.FrontViewMappingTestBase<SampleMappingProject.Commons.Models.Views.UserView, SampleMappingProject.Infrastructure.Models.Persistence.UserModel>;
-
+using SampleMappingProject.Commons.Models.Views;
+using SampleMappingProject.Persistence.Models;
+using SampleMappingProject.Tests.Models.Base;
 namespace SampleMappingProject.Tests.Models
 {
-    public class UserViewMappingTests : CommonsTestBase
+    public class UserViewMappingTests : FrontViewMappingTestBase<UserView, UserModel>
     {
-        protected override ConsoleUserView GetSampleView()
+        protected override UserView GetSampleView()
         {
-            return new ConsoleUserView
+            return new UserView
             {
                 Id = 1,
                 Username = "TestUser",
