@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using SampleMappingProject.Console.Models.Views;
+using SampleMappingProject.Commons.Models.Views;
 
-namespace SampleMappingProject.Console
+namespace SampleMappingProject.ConsoleApp
 {
 	internal class Program
 	{

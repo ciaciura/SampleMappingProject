@@ -1,9 +1,9 @@
 using System;
 using System.Linq.Expressions;
 using SampleMappingProject.Views;
-using SampleMappingProject.Console.Models.Persistance;
+using SampleMappingProject.Infrastructure.Models.Persistence;
 
-namespace SampleMappingProject.Console.Models.Views
+namespace SampleMappingProject.Commons.Models.Views
 {
     public class UserView : FrontViewBase<UserView, UserModel>
     {

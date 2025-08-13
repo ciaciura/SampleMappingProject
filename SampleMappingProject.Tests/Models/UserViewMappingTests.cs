@@ -1,6 +1,6 @@
-using ConsoleUserView = SampleMappingProject.Console.Models.Views.UserView;
-using ConsoleUserModel = SampleMappingProject.Console.Models.Persistance.UserModel;
-using CommonsTestBase = SampleMappingProject.Views.FrontViewMappingTestBase<SampleMappingProject.Console.Models.Views.UserView, SampleMappingProject.Console.Models.Persistance.UserModel>;
+using ConsoleUserView = SampleMappingProject.Commons.Models.Views.UserView;
+using ConsoleUserModel = SampleMappingProject.Infrastructure.Models.Persistence.UserModel;
+using CommonsTestBase = SampleMappingProject.Views.FrontViewMappingTestBase<SampleMappingProject.Commons.Models.Views.UserView, SampleMappingProject.Infrastructure.Models.Persistence.UserModel>;
 
 namespace SampleMappingProject.Tests.Models
 {
